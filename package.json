@@ -1,5 +1,5 @@
 {
-  "name": "cex-offender",
+  "name": "jamstack-cfp",
   "private": true,
   "scripts": {
     "build": "gridsome build && npm run functions:build",
