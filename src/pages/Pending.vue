@@ -5,7 +5,7 @@
       <ExternalLink
 		href="https://github.com/lunchbox952/cex/pulls?q=is%3Apr+is%3Aopen+label%3Asubmission"
         >pull requests</ExternalLink
-      >awaiting verification.
+      > awaiting verification.
     </SubmissionList>
   </Layout>
 </template>
@@ -36,6 +36,9 @@ export default {
   components: {
     ExternalLink,
     SubmissionList,
+  },
+  metaInfo: {
+    title: "Registered CEX Offenders",
   },
   computed: {
     submissions() {

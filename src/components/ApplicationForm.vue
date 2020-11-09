@@ -7,14 +7,16 @@
     </h2>
     <div class="mt-3 sm:mt-4">
       <p class="text-xl leading-7 text-gray-600">
-        Submitting this form will trigger a pull request using GitHub Actions,
-        which will be displayed in the
+        Submissions trigger a <ExternalLink
+		href="https://github.com/lunchbox952/cex/pulls?q=is%3Apr+is%3Aopen+label%3Asubmission"
+        >pull request</ExternalLink
+      > which will be displayed in the
         <g-link
           to="/pending"
           class="underline text-indigo-600 hover:text-indigo-900 transition ease-in-out duration-150"
           >Pending</g-link
         >
-        tab. Once it's merged you will be able to see your submission in the
+        tab. Once verified and merged, they appear in the
         <g-link
           to="/submissions"
           class="underline text-indigo-600 hover:text-indigo-900 transition ease-in-out duration-150"
@@ -39,8 +41,8 @@
       </Field>
       <label class="flex text-sm leading-5 text-gray-700 mt-5">
         <input type="checkbox" required class="mt-1 mr-2" />
-        I understand this information is going to be hosted in a public
-        repository and I have not included sensitive data in any of the fields.
+        I understand this will be hosted in a public
+        repository and I have not included any sensitive data of my own.
       </label>
       <Alert v-if="error" theme="error">
         Oops, this is embarassing, but something went wrong while submitting the

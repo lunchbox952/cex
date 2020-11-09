@@ -1,10 +1,10 @@
 <template>
   <div class="container mx-auto my-8 max-w-3xl p-5">
     <h1 class="text-5xl font-extrabold leading-none mb-4">
-      cexoffender.com
+      ⚠️ Register a CEX Offender
     </h1>
     <p class="text-2xl font-light leading-snug">
-      Crypto is rife with centralized exchanges that scam users and projects alike. This website accepts anonymous tips on their unethical practices and maintains an open source list of Registered CEX Offenders.
+      Crypto is rife with centralized exchanges that scam users and projects alike. This site accepts anonymous tips on their unethical practices.
     </p>
     <div class="mt-6 mb-8 border-b border-gray-200">
       <nav class="-mb-px flex">

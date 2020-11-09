@@ -1,8 +1,7 @@
 <template>
   <Layout>
     <SubmissionList title="Registered CEX Offenders" :submissions="submissions">
-      Accepted submissions are added to the repository as json files if and when the
-      pull request is merged
+      Submissions appear here once verified and pull request merged.
     </SubmissionList>
   </Layout>
 </template>
@@ -29,6 +28,9 @@ import SubmissionList from "~/components/SubmissionList";
 export default {
   components: {
     SubmissionList,
+  },
+  metaInfo: {
+    title: "Registered CEX Offenders",
   },
   computed: {
     submissions() {
